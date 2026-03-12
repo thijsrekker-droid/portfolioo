@@ -201,10 +201,20 @@ document.getElementById("proj-cover").src=p.cover
 const grid=document.getElementById("gal-grid")
 grid.innerHTML=""
 
-p.gallery.forEach(img=>{
-const el=document.createElement("img")
-el.src=img
-grid.appendChild(el)
+p.gallery.forEach((img,i)=>{
+
+ const item=document.createElement("div")
+
+ if(i===0){
+  item.className="gi wide"
+ } else {
+  item.className="gi"
+ }
+
+ item.innerHTML=`<img loading="lazy" src="${img}">`
+
+ grid.appendChild(item)
+
 })
 
 document.getElementById("page-home").classList.remove("active")
