@@ -1,44 +1,77 @@
 const projects = [
   {
-    title: "Festival Identiteit",
-    cat: "Branding",
-    year: "2024",
-    services: "Art Direction, Identity",
-    tools: "Illustrator, Photoshop, InDesign",
-    desc: "Een visuele identiteit voor een cultureel event, met focus op ritme, typografie en herkenning in zowel print als online uitingen.",
-    cover: "https://images.unsplash.com/photo-1511578314322-379afb476865?auto=format&fit=crop&w=1400&q=80",
+    title: "Stage — PEC Zwolle",
+    cat: "Stage / Social Media",
+    year: "01",
+    services: "Design, Content",
+    tools: "Photoshop, Illustrator",
+    desc: "Werk uit mijn stageperiode bij PEC Zwolle, met focus op sportvisuals, social content en branding in een redactionele stijl.",
+    cover: "https://images.unsplash.com/photo-1547347298-4074fc3086f0?auto=format&fit=crop&w=1400&q=80",
+    preview: "https://images.unsplash.com/photo-1547347298-4074fc3086f0?auto=format&fit=crop&w=900&q=80",
     gallery: [
-      "https://images.unsplash.com/photo-1511578314322-379afb476865?auto=format&fit=crop&w=1400&q=80",
-      "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?auto=format&fit=crop&w=1400&q=80",
-      "https://images.unsplash.com/photo-1459749411175-04bf5292ceea?auto=format&fit=crop&w=1400&q=80"
+      "https://images.unsplash.com/photo-1547347298-4074fc3086f0?auto=format&fit=crop&w=1400&q=80",
+      "https://images.unsplash.com/photo-1517649763962-0c623066013b?auto=format&fit=crop&w=1400&q=80",
+      "https://images.unsplash.com/photo-1574629810360-7efbbe195018?auto=format&fit=crop&w=1400&q=80"
     ]
   },
   {
-    title: "Merkhuisstijl Concept",
-    cat: "Identity",
-    year: "2024",
-    services: "Logo, Visual System",
-    tools: "Illustrator, Figma",
-    desc: "Een minimalistische merkidentiteit met een rustige, moderne beeldtaal. Ontwikkeld voor consistente toepassing op socials, print en presentatie.",
-    cover: "https://images.unsplash.com/photo-1523726491678-bf852e717f6a?auto=format&fit=crop&w=1400&q=80",
+    title: "Game Of Two Halves",
+    cat: "Campagne Design",
+    year: "02",
+    services: "Identity, Posters",
+    tools: "Illustrator, InDesign",
+    desc: "Campagneconcept met een strakke visuele opbouw, veel contrast en een duidelijke hiërarchie in typografie en beeld.",
+    cover: "https://images.unsplash.com/photo-1511512578047-dfb367046420?auto=format&fit=crop&w=1400&q=80",
+    preview: "https://images.unsplash.com/photo-1511512578047-dfb367046420?auto=format&fit=crop&w=900&q=80",
     gallery: [
-      "https://images.unsplash.com/photo-1523726491678-bf852e717f6a?auto=format&fit=crop&w=1400&q=80",
-      "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=1400&q=80",
+      "https://images.unsplash.com/photo-1511512578047-dfb367046420?auto=format&fit=crop&w=1400&q=80",
+      "https://images.unsplash.com/photo-1516557070061-c3d1653fa646?auto=format&fit=crop&w=1400&q=80",
       "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=1400&q=80"
     ]
   },
   {
-    title: "Campagne Visuals",
-    cat: "Campaign",
-    year: "2023",
-    services: "Concept, Social Design",
-    tools: "Photoshop, InDesign",
-    desc: "Serie campagne-uitingen met een duidelijke hiërarchie en sterke visuele herkenbaarheid voor online en offline toepassingen.",
-    cover: "https://images.unsplash.com/photo-1516321165247-4aa89a48be28?auto=format&fit=crop&w=1400&q=80",
+    title: "Loszand Festival 2024",
+    cat: "Festival Identiteit",
+    year: "03",
+    services: "Identity, Posters, Socials",
+    tools: "Illustrator, Photoshop",
+    desc: "Festivalidentiteit met felle kleurcontrasten en een duidelijke visuele signatuur voor posters, socials en eventcommunicatie.",
+    cover: "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?auto=format&fit=crop&w=1400&q=80",
+    preview: "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?auto=format&fit=crop&w=900&q=80",
     gallery: [
-      "https://images.unsplash.com/photo-1516321165247-4aa89a48be28?auto=format&fit=crop&w=1400&q=80",
-      "https://images.unsplash.com/photo-1515879218367-8466d910aaa4?auto=format&fit=crop&w=1400&q=80",
-      "https://images.unsplash.com/photo-1558655146-9f40138edfeb?auto=format&fit=crop&w=1400&q=80"
+      "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?auto=format&fit=crop&w=1400&q=80",
+      "https://images.unsplash.com/photo-1459749411175-04bf5292ceea?auto=format&fit=crop&w=1400&q=80",
+      "https://images.unsplash.com/photo-1501386761578-eac5c94b800a?auto=format&fit=crop&w=1400&q=80"
+    ]
+  },
+  {
+    title: "Liqued Liquor",
+    cat: "Branding / Label Design",
+    year: "04",
+    services: "Branding, Packaging",
+    tools: "Illustrator, Photoshop",
+    desc: "Een brandingconcept voor een dranklabel, met focus op karakter, verpakking en een premium uitstraling.",
+    cover: "https://images.unsplash.com/photo-1514362545857-3bc16c4c7d1b?auto=format&fit=crop&w=1400&q=80",
+    preview: "https://images.unsplash.com/photo-1514362545857-3bc16c4c7d1b?auto=format&fit=crop&w=900&q=80",
+    gallery: [
+      "https://images.unsplash.com/photo-1514362545857-3bc16c4c7d1b?auto=format&fit=crop&w=1400&q=80",
+      "https://images.unsplash.com/photo-1569529465841-dfecdab7503b?auto=format&fit=crop&w=1400&q=80",
+      "https://images.unsplash.com/photo-1510812431401-41d2bd2722f3?auto=format&fit=crop&w=1400&q=80"
+    ]
+  },
+  {
+    title: "Insanity",
+    cat: "Festival / Social Media",
+    year: "05",
+    services: "Campaign Design",
+    tools: "Photoshop, Illustrator",
+    desc: "Visuele campagne met een energieke uitstraling voor eventpromotie en online storytelling.",
+    cover: "https://images.unsplash.com/photo-1516280440614-37939bbacd81?auto=format&fit=crop&w=1400&q=80",
+    preview: "https://images.unsplash.com/photo-1516280440614-37939bbacd81?auto=format&fit=crop&w=900&q=80",
+    gallery: [
+      "https://images.unsplash.com/photo-1516280440614-37939bbacd81?auto=format&fit=crop&w=1400&q=80",
+      "https://images.unsplash.com/photo-1489515217757-5fd1be406fef?auto=format&fit=crop&w=1400&q=80",
+      "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1400&q=80"
     ]
   }
 ];
@@ -54,7 +87,7 @@ const pages = {
 function activatePage(key) {
   Object.values(pages).forEach(page => page.classList.remove("active"));
   pages[key].classList.add("active");
-  window.scrollTo({ top: 0, behavior: "instant" });
+  window.scrollTo(0, 0);
 }
 
 function showHome() {
@@ -65,6 +98,13 @@ function showPage(name) {
   if (pages[name]) activatePage(name);
 }
 
+function splitTitle(title) {
+  const parts = title.split(" ");
+  if (parts.length < 2) return title;
+  const last = parts.pop();
+  return `${parts.join(" ")} <span class="thin">${last}</span>`;
+}
+
 function renderProjectList() {
   const list = document.getElementById("project-list");
   list.innerHTML = "";
@@ -73,27 +113,27 @@ function renderProjectList() {
     const row = document.createElement("button");
     row.className = "p-row reveal";
     row.innerHTML = `
-      <div class="p-num">${String(index + 1).padStart(2, "0")}</div>
+      <div class="p-num">${project.year}</div>
       <div class="p-title">${project.title}</div>
-      <div style="display:flex; gap:24px; align-items:center;">
+      <div class="p-meta">
         <div class="p-cat">${project.cat}</div>
-        <div class="p-year">${project.year}</div>
       </div>
     `;
+
     row.addEventListener("click", () => openProject(index));
-    row.addEventListener("mouseenter", () => showPreview(project.cover));
-    row.addEventListener("mouseleave", hidePreview);
+    row.addEventListener("mouseenter", () => {
+      row.classList.add("hovered");
+      showPreview(project.preview || project.cover);
+    });
+    row.addEventListener("mouseleave", () => {
+      row.classList.remove("hovered");
+      hidePreview();
+    });
+
     list.appendChild(row);
   });
 
   revealAll();
-}
-
-function splitTitle(title) {
-  const parts = title.split(" ");
-  if (parts.length < 2) return `${title}`;
-  const last = parts.pop();
-  return `${parts.join(" ")} <span class="thin">${last}</span>`;
 }
 
 function openProject(index) {
@@ -116,7 +156,7 @@ function openProject(index) {
   project.gallery.forEach((src, i) => {
     const item = document.createElement("div");
     item.className = "gi" + (i === 0 ? " wide" : "");
-    item.innerHTML = `<img src="${src}" alt="${project.title} beeld ${i + 1}">`;
+    item.innerHTML = `<img src="${src}" alt="${project.title} ${i + 1}">`;
     grid.appendChild(item);
   });
 
@@ -125,7 +165,6 @@ function openProject(index) {
 
   document.getElementById("pnb-prev-n").textContent = projects[prevIndex].title;
   document.getElementById("pnb-next-n").textContent = projects[nextIndex].title;
-
   document.getElementById("pnb-prev").onclick = () => openProject(prevIndex);
   document.getElementById("pnb-next").onclick = () => openProject(nextIndex);
 
@@ -136,14 +175,13 @@ const cur = document.getElementById("cur");
 const curF = document.getElementById("cur-f");
 
 window.addEventListener("mousemove", (e) => {
-  const { clientX, clientY } = e;
   if (cur) {
-    cur.style.left = `${clientX - 4}px`;
-    cur.style.top = `${clientY - 4}px`;
+    cur.style.left = `${e.clientX - 4}px`;
+    cur.style.top = `${e.clientY - 4}px`;
   }
   if (curF) {
-    curF.style.left = `${clientX - 17}px`;
-    curF.style.top = `${clientY - 17}px`;
+    curF.style.left = `${e.clientX - 17}px`;
+    curF.style.top = `${e.clientY - 17}px`;
   }
 });
 
@@ -167,8 +205,8 @@ function hidePreview() {
 
 window.addEventListener("mousemove", (e) => {
   if (!preview || !preview.classList.contains("visible")) return;
-  preview.style.left = `${e.clientX + 22}px`;
-  preview.style.top = `${e.clientY + 22}px`;
+  preview.style.left = `${e.clientX + 50}px`;
+  preview.style.top = `${e.clientY}px`;
 });
 
 function revealAll() {
@@ -176,7 +214,7 @@ function revealAll() {
     entries.forEach(entry => {
       if (entry.isIntersecting) entry.target.classList.add("in");
     });
-  }, { threshold: 0.15 });
+  }, { threshold: 0.12 });
 
   document.querySelectorAll(".reveal").forEach(el => observer.observe(el));
 }

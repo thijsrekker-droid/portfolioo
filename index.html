@@ -6,13 +6,16 @@
   <title>Thijs Rekker — Graphic Designer</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Archivo:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
   <div id="cur"></div>
-  <div class="preview-img" id="preview"><img id="preview-img" src="" alt=""></div>
   <div id="cur-f"></div>
+
+  <div class="preview-img" id="preview">
+    <img id="preview-img" src="" alt="">
+  </div>
 
   <nav>
     <a href="#" class="n-logo" onclick="showHome();return false;">Thijs Rekker</a>
@@ -27,6 +30,7 @@
 
   <div class="page active" id="page-home">
     <section class="hero">
+      <div class="hero-spacer"></div>
       <div class="hero-inner">
         <div class="hero-label">Graphic Designer — Barneveld</div>
         <div class="hero-name-outer">
@@ -44,13 +48,13 @@
       </div>
     </section>
 
-    <div id="wa" style="scroll-margin-top:58px"></div>
+    <div id="wa" class="anchor"></div>
     <div class="section-mini-label">Recente projecten</div>
     <div id="project-list"></div>
 
     <div class="about-teaser reveal" onclick="showPage('about')">
       <div>
-        <div class="sec-tag" style="margin-bottom:12px;">Over mij</div>
+        <div class="sec-tag teaser-tag">Over mij</div>
         <p class="about-teaser-text">Graphic designer uit Barneveld die gelooft dat goed design een verhaal vertelt dat mensen bijblijft.</p>
       </div>
       <div class="about-teaser-link">Lees meer
@@ -58,12 +62,12 @@
       </div>
     </div>
 
-    <div id="ca" style="scroll-margin-top:58px"></div>
+    <div id="ca" class="anchor"></div>
     <div class="contact-sec reveal">
       <div class="sec-tag">Laten we samenwerken</div>
       <h2 class="contact-h">Laten we iets<span class="thin">moois maken</span></h2>
       <a href="mailto:Thijsrekker@gmail.com" class="contact-email">Thijsrekker@gmail.com</a>
-      <div class="contact-ghost">Contact</div>
+      <div class="contact-ghost">CONTACT</div>
     </div>
 
     <footer>
@@ -79,21 +83,21 @@
     <section class="about">
       <div class="ab-l reveal">
         <div class="sec-tag">Over mij</div>
-        <h2 class="ab-h">Design dat<span class="thin">blijft hangen</span></h2>
+        <h2 class="ab-h">Graphic designer<span class="thin">uit Barneveld</span></h2>
         <div class="ab-body">
-          <p>Ik ben Thijs Rekker, graphic designer uit Barneveld. Ik werk graag aan visuele identiteiten, campagnebeelden en ontwerpen die helder communiceren.</p>
-          <p>Mijn stijl is strak, editorial en doelgericht. Ik zoek altijd naar een balans tussen karakter, rust en impact.</p>
-          <p>Deze versie is bewust netjes opgesplitst in HTML, CSS en JavaScript zodat je hem later makkelijker kunt aanpassen.</p>
+          <p>Ik ontwerp identiteiten, campagnemateriaal en visuele systemen die niet alleen mooi zijn, maar ook helder communiceren.</p>
+          <p>Mijn stijl is strak, editorial en rustig. Ik werk graag met sterke typografie, contrast en een duidelijke structuur.</p>
+          <p>Deze versie is opgebouwd op basis van je screenshots, zodat we hem later stap voor stap nog preciezer kunnen maken.</p>
         </div>
       </div>
       <div class="ab-r reveal">
-        <div class="sec-tag">Skills</div>
+        <div class="sec-tag">Expertise</div>
         <div class="sk-list">
           <div class="sk"><div class="sk-name">Brand Identity</div><div class="sk-n">01</div></div>
-          <div class="sk"><div class="sk-name">Poster Design</div><div class="sk-n">02</div></div>
-          <div class="sk"><div class="sk-name">Social Visuals</div><div class="sk-n">03</div></div>
-          <div class="sk"><div class="sk-name">Typography</div><div class="sk-n">04</div></div>
-          <div class="sk"><div class="sk-name">Adobe Creative Suite</div><div class="sk-n">05</div></div>
+          <div class="sk"><div class="sk-name">Festival Identity</div><div class="sk-n">02</div></div>
+          <div class="sk"><div class="sk-name">Campaign Design</div><div class="sk-n">03</div></div>
+          <div class="sk"><div class="sk-name">Social Media Design</div><div class="sk-n">04</div></div>
+          <div class="sk"><div class="sk-name">Typography</div><div class="sk-n">05</div></div>
         </div>
       </div>
     </section>

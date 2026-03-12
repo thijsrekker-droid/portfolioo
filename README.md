@@ -1,13 +1,18 @@
-# Thijs Rekker Portfolio Rebuild
+# Thijs Portfolio V2
 
-Deze versie is opgesplitst in:
+Gebaseerd op de screenshots van je live site.
+
+## Bestanden
 - index.html
 - style.css
 - script.js
 
-## Uploaden naar GitHub
-Upload deze 3 bestanden naar je repository root en commit de wijzigingen.
+## Opmerking
+Deze versie benadert:
+- de grote hero
+- de donkere editorial look
+- de projectlijst
+- de hover preview
+- de about/contact sectie
 
-## Belangrijk
-Dit is een nette herbouw op basis van de code die je stuurde.
-De look en structuur sluiten aan op je bestaande site, maar de projectdata en afbeeldingen zijn voorlopig placeholders.
+De projectafbeeldingen zijn nog placeholders.
