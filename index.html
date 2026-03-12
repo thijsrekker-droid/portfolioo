@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Thijs Rekker — Graphic Designer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Archivo:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div id="cur"></div>
+  <div class="preview-img" id="preview"><img id="preview-img" src="" alt=""></div>
+  <div id="cur-f"></div>
+
+  <nav>
+    <a href="#" class="n-logo" onclick="showHome();return false;">Thijs Rekker</a>
+    <div class="n-c">
+      <button class="n-a" onclick="showHome()">Home</button>
+      <button class="n-a" onclick="showHome();setTimeout(()=>document.getElementById('wa').scrollIntoView({behavior:'smooth'}),80)">Work</button>
+      <button class="n-a" onclick="showPage('about')">About</button>
+      <button class="n-a" onclick="showHome();setTimeout(()=>document.getElementById('ca').scrollIntoView({behavior:'smooth'}),80)">Contact</button>
+      <div class="n-avail"><div class="n-dot"></div>Beschikbaar</div>
+    </div>
+  </nav>
+
+  <div class="page active" id="page-home">
+    <section class="hero">
+      <div class="hero-inner">
+        <div class="hero-label">Graphic Designer — Barneveld</div>
+        <div class="hero-name-outer">
+          <div class="hero-name">Thijs <span class="thin">Rekker</span></div>
+        </div>
+        <div class="hero-foot">
+          <p class="hero-copy">Ik maak dingen duidelijk en mooi, van festivalidentiteiten tot merkhuisstijlen. Het mooiste moment is wanneer een ontwerp echt tot leven komt en veel mensen het zien.</p>
+        </div>
+      </div>
+      <div class="hero-stats">
+        <div class="hs"><div class="hs-n">14+</div><div class="hs-l">Projecten</div></div>
+        <div class="hs"><div class="hs-n">4</div><div class="hs-l">Stages</div></div>
+        <div class="hs"><div class="hs-n">2021</div><div class="hs-l">Gestart</div></div>
+        <div class="hs"><div class="hs-n">NL</div><div class="hs-l">Locatie</div></div>
+      </div>
+    </section>
+
+    <div id="wa" style="scroll-margin-top:58px"></div>
+    <div class="section-mini-label">Recente projecten</div>
+    <div id="project-list"></div>
+
+    <div class="about-teaser reveal" onclick="showPage('about')">
+      <div>
+        <div class="sec-tag" style="margin-bottom:12px;">Over mij</div>
+        <p class="about-teaser-text">Graphic designer uit Barneveld die gelooft dat goed design een verhaal vertelt dat mensen bijblijft.</p>
+      </div>
+      <div class="about-teaser-link">Lees meer
+        <svg width="20" height="10" viewBox="0 0 20 10" fill="none"><path d="M0 5H19M19 5L14 1M19 5L14 9" stroke="currentColor" stroke-width="1.2"/></svg>
+      </div>
+    </div>
+
+    <div id="ca" style="scroll-margin-top:58px"></div>
+    <div class="contact-sec reveal">
+      <div class="sec-tag">Laten we samenwerken</div>
+      <h2 class="contact-h">Laten we iets<span class="thin">moois maken</span></h2>
+      <a href="mailto:Thijsrekker@gmail.com" class="contact-email">Thijsrekker@gmail.com</a>
+      <div class="contact-ghost">Contact</div>
+    </div>
+
+    <footer>
+      <div class="f-l">© 2024 Thijs Rekker — Graphic Designer</div>
+      <div class="f-r">
+        <a href="https://www.linkedin.com/in/thijs-rekker-9417201a4/" target="_blank">LinkedIn</a>
+        <a href="https://www.instagram.com/thijsrekker/" target="_blank">Instagram</a>
+      </div>
+    </footer>
+  </div>
+
+  <div class="page" id="page-about">
+    <section class="about">
+      <div class="ab-l reveal">
+        <div class="sec-tag">Over mij</div>
+        <h2 class="ab-h">Design dat<span class="thin">blijft hangen</span></h2>
+        <div class="ab-body">
+          <p>Ik ben Thijs Rekker, graphic designer uit Barneveld. Ik werk graag aan visuele identiteiten, campagnebeelden en ontwerpen die helder communiceren.</p>
+          <p>Mijn stijl is strak, editorial en doelgericht. Ik zoek altijd naar een balans tussen karakter, rust en impact.</p>
+          <p>Deze versie is bewust netjes opgesplitst in HTML, CSS en JavaScript zodat je hem later makkelijker kunt aanpassen.</p>
+        </div>
+      </div>
+      <div class="ab-r reveal">
+        <div class="sec-tag">Skills</div>
+        <div class="sk-list">
+          <div class="sk"><div class="sk-name">Brand Identity</div><div class="sk-n">01</div></div>
+          <div class="sk"><div class="sk-name">Poster Design</div><div class="sk-n">02</div></div>
+          <div class="sk"><div class="sk-name">Social Visuals</div><div class="sk-n">03</div></div>
+          <div class="sk"><div class="sk-name">Typography</div><div class="sk-n">04</div></div>
+          <div class="sk"><div class="sk-name">Adobe Creative Suite</div><div class="sk-n">05</div></div>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="f-l">© 2024 Thijs Rekker — Graphic Designer</div>
+      <div class="f-r">
+        <a href="#" onclick="showHome();return false;">Home</a>
+        <a href="https://www.linkedin.com/in/thijs-rekker-9417201a4/" target="_blank">LinkedIn</a>
+      </div>
+    </footer>
+  </div>
+
+  <div class="page" id="page-project">
+    <div class="pw">
+      <div class="ph">
+        <div class="ph-top">
+          <button class="back" onclick="showHome()">
+            <svg width="16" height="10" viewBox="0 0 16 10" fill="none"><path d="M0 5H15M0 5L5 1M0 5L5 9" stroke="currentColor" stroke-width="1.2"/></svg>
+            Alle projecten
+          </button>
+        </div>
+        <div class="ph-name-wrap">
+          <div class="ph-name" id="proj-h"></div>
+        </div>
+        <div class="ph-meta-strip">
+          <div class="pm-cell"><div class="pm-k">Project</div><div class="pm-v" id="ps-title"></div></div>
+          <div class="pm-cell"><div class="pm-k">Categorie</div><div class="pm-v" id="ps-cat"></div></div>
+          <div class="pm-cell"><div class="pm-k">Diensten</div><div class="pm-v" id="ps-serv"></div></div>
+        </div>
+      </div>
+
+      <div class="pc-wrap"><img id="proj-cover" src="" alt=""></div>
+
+      <div class="pb">
+        <div class="pb-s">
+          <div class="pb-lbl">Gebruikt</div>
+          <div class="si"><div class="si-k">Software</div><div class="si-v" id="ps-tools"></div></div>
+        </div>
+        <div class="pb-t"><p id="proj-desc"></p></div>
+      </div>
+
+      <div class="pg" id="proj-gal">
+        <div class="pg-lbl">Projectbeelden</div>
+        <div class="gg" id="gal-grid"></div>
+      </div>
+
+      <div class="pnav">
+        <button class="pnb" id="pnb-prev">
+          <div class="pnb-l">← Vorig project</div>
+          <div class="pnb-n" id="pnb-prev-n"></div>
+        </button>
+        <button class="btn btn-ghost" onclick="showHome()">Alle projecten</button>
+        <button class="pnb r" id="pnb-next">
+          <div class="pnb-l">Volgend project →</div>
+          <div class="pnb-n" id="pnb-next-n"></div>
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
