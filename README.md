@@ -1,3 +1,3 @@
-# Thijs Portfolio V3
+# Thijs Portfolio V4
 
-Deze versie focust op de index-achtige projectlijst.
+Nu met alle 14 projecten uit je screenshot overgenomen.
