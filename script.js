@@ -220,3 +220,31 @@ p.gallery.forEach((img,i)=>{
 document.getElementById("page-home").classList.remove("active")
 document.getElementById("page-project").classList.add("active")
 }
+// Cursor animatie
+const cur = document.getElementById('cur')
+const curF = document.getElementById('cur-f')
+
+let mx = 0, my = 0
+let fx = 0, fy = 0
+
+document.addEventListener('mousemove', e => {
+  mx = e.clientX
+  my = e.clientY
+  cur.style.left = mx - 4 + 'px'
+  cur.style.top  = my - 4 + 'px'
+})
+
+function animateCursor() {
+  fx += (mx - fx) * 0.18
+  fy += (my - fy) * 0.18
+  curF.style.left = fx - 17 + 'px'
+  curF.style.top  = fy - 17 + 'px'
+  requestAnimationFrame(animateCursor)
+}
+animateCursor()
+
+// Hover effect op klikbare elementen
+document.querySelectorAll('a, button, .p-row, .about-teaser').forEach(el => {
+  el.addEventListener('mouseenter', () => cur.classList.add('big'))
+  el.addEventListener('mouseleave', () => cur.classList.remove('big'))
+})
