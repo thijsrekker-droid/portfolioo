@@ -1,3 +1,13 @@
+document.addEventListener('DOMContentLoaded', () => {
+  document.getElementById('nav-logo').addEventListener('click', e => { e.preventDefault(); showHome() })
+  document.getElementById('nav-home').addEventListener('click', () => showHome())
+  document.getElementById('nav-work').addEventListener('click', () => { showHome(); setTimeout(() => document.getElementById('wa').scrollIntoView({behavior:'smooth'}), 80) })
+  document.getElementById('nav-about').addEventListener('click', () => showPage('about'))
+  document.getElementById('nav-contact').addEventListener('click', () => { showHome(); setTimeout(() => document.getElementById('ca').scrollIntoView({behavior:'smooth'}), 80) })
+  document.getElementById('back-btn').addEventListener('click', () => showHome())
+  document.getElementById('about-teaser').addEventListener('click', () => showPage('about'))
+})
+
 const projects = [
 {
 title:"Stage — PEC Zwolle",
@@ -255,7 +265,6 @@ window.addEventListener("popstate", e => {
   }
 })
 
-// Zet beginstate
 history.replaceState({ page: "home" }, "", location.pathname)
 
 // Cursor animatie
