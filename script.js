@@ -202,7 +202,7 @@ function showHome() {
   document.getElementById("page-home").classList.add("active")
   document.getElementById("page-project").classList.remove("active")
   document.getElementById("page-about").classList.remove("active")
-  history.pushState({ page: "home" }, "", "#")
+  history.pushState({ page: "home" }, "", "")
   window.scrollTo(0, 0)
 }
 
@@ -211,7 +211,7 @@ function showPage(name) {
   document.getElementById("page-project").classList.remove("active")
   document.getElementById("page-about").classList.remove("active")
   document.getElementById("page-" + name).classList.add("active")
-  history.pushState({ page: name }, "", "#" + name)
+  history.pushState({ page: name }, "", "")
   window.scrollTo(0, 0)
 }
 
@@ -238,7 +238,7 @@ function openProject(i) {
 
   document.getElementById("page-home").classList.remove("active")
   document.getElementById("page-project").classList.add("active")
-  history.pushState({ page: "project", index: i }, "", "#project-" + i)
+  history.pushState({ page: "project", index: i }, "", "")
   window.scrollTo(0, 0)
 }
 
